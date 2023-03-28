@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    padding: 1rem;
+    /* background-color: aqua; */
+    min-height: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-bottom: 1px solid gray; */
+    box-shadow: 2px 2px 2px #f0f6f8;
+}
+nav ul {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.nav2 ul {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+nav {
+    width: 15%;
+}
+
+.nav2 {
+    width: 20%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.big {
+    padding: 32px 32px;
+    min-height: calc(80vh - 20px);
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 60vw;
+   
+
+}
+.square {
+    padding: 16px;
+    width: 12rem;
+    height: 12rem;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,219,151,1) 0%, rgba(182,81,221,1) 100%, rgba(9,49,121,1) 100%, rgba(0,212,255,1) 100%);
+    border-radius: 8px;
+    
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card1 {
+    justify-content: space-evenly;
+    gap: 16px;
+    align-items: center;
+    padding: 8px;
+    display: flex;
+    box-shadow: 2px 2px 2px #f0f6f8;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.card2 {
+    justify-content: space-evenly;
+    gap: 16px;
+    align-items: center;
+    padding: 8px;
+    display: flex;
+    box-shadow: 2px 2px 2px #f0f6f8;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.textarea1 {
+    padding: 16px;
+
+}
+.myc {
+    display: block;
+    padding: 16px;
+}
+.order {
+    border: 1px solid grey;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #f0f6f8;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    height: 440px;
+    
+   
+}
+.sec1 {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.l3 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.l5 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+button {
+    text-decoration: none;
+    background-color: aqua;
+    border: none;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+.l4 > button {
+    color: aqua;
+    border-color: aqua;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid aqua;
+}
+.dot {
+    background-color: red;
+    color: red;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px solid red;
+    position: absolute;
+    z-index: 1;
+    right: 210px;
+    top: 22px;
+}  
